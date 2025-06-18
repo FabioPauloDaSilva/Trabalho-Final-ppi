@@ -1,0 +1,47 @@
+/* Body da tela de login */
+body.login-body {
+    background-color: rgb(215, 171, 224);
+    color: white;
+}
+
+/* Caixa da tabela de login */
+#login .container #login-row #login-column #login-box {
+    background-color: #210850; /* Roxo claro */
+    border: 1px solid #9C9C9C;
+    color: white;
+}
+
+/* Navbar com gradiente roxo e preto */
+.navbar-gradient {
+    background: linear-gradient(90deg, purple, black);
+}
+
+.navbar-gradient .nav-link,
+.navbar-gradient .navbar-brand,
+.navbar-gradient .navbar-text {
+    color: white !important;
+}
+
+/* Body do cadastro de equipe */
+body.cadastro-equipe-body {
+    background-color: black;
+    color: white;
+}
+
+/* Tabela da lista de equipes */
+.tabela-equipes {
+    background-color: purple;
+    color: rgb(0, 0, 0);
+}
+
+.tabela-equipes th,
+.tabela-equipes td {
+    color: rgb(0, 0, 0);
+}
+.tabela-equipes tbody tr:hover {
+    background-color: #d8b4f8; /* Um roxo claro/lilás no hover */
+    color: black; /* Texto preto durante o hover (opcional) */
+}
+#login-form{
+    color: white;
+}
